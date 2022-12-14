@@ -16,5 +16,49 @@ body {
   font: inherit;
   padding: 8px;
   max-width: 320px;
-  margin-bottom: 16px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.flag {
+  display: block;
+  width: 150px;
+  height: auto;
+  border: 0.5px solid grey;
+  margin-right: 10px;
+}
+
+.countryName {
+  display: flex;
+  align-items: center;
+}
+
+.small-flag {
+  margin-right: 10px;
+  display: block;
+  width: 80px;
+  height: auto;
+  border: 0.5px solid grey;
+}
+
+.country-list {
+  margin: 0px;
+  padding: 0px;
+  font-size: 20px;
+  font-weight: 500;
+  list-style: none;
+  margin-left: 20px;
+}
+
+.description-country {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  list-style: none;
+}
+
+.country-info {
+  margin-left: 20px;
+  font-size: 26px;
 }
